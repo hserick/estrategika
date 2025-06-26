@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-const isProd = process.env.NODE_ENV === 'production'
 // https://vite.dev/config/
 export default defineConfig({
-  base: isProd ? '/estrategika/' : '/',
+  //base: mode === 'development' ? '/' : '/estrategika/',
+  base: '/estrategika/',
   plugins: [vue()],
 })

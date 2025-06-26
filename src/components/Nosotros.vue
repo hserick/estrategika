@@ -2,7 +2,7 @@
 const base = import.meta.env.BASE_URL
 </script>
 <template>
-  <section class="w-screen h-screen grid grid-cols-2 relative">
+  <section class="w-screen min-h-screen grid grid-cols-2 relative">
     <!-- Texto a la izquierda -->
     <div class="bg-white flex flex-col justify-center px-14 animate-fade-in-left z-10 shadow-lg">
       <h2 class="text-5xl font-bold text-gray-800 mb-6 drop-shadow-md">Nosotros</h2>
