@@ -157,7 +157,7 @@ function getStyle(index) {
     backgroundColor: colors[index % colors.length],
     color: 'white',
     borderRadius: '0.5rem',
-    width: '300px',
+    width: '200px',
     height: '60px',
     display: 'flex',
     alignItems: 'center',
